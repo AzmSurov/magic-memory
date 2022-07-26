@@ -4,12 +4,12 @@ import './App.css';
 import SingleCard from './components/SingleCard';
 
 const cardImages = [
-  {"src": "/img/chris2.jpg", matched:false},
-  {"src": "/img/brian2.jpg", matched:false},
-  {"src": "/img/meg2.jpg", matched:false},
-  {"src": "/img/peter2.png", matched:false},
-  {"src": "/img/stewie2.png", matched:false},
-  {"src": "/img/lois2.jpg", matched:false}
+  {"src": "/img/helmet-1.png", matched:false},
+  {"src": "/img/potion-1.png", matched:false},
+  {"src": "/img/ring-1.png", matched:false},
+  {"src": "/img/scroll-1.png", matched:false},
+  {"src": "/img/shield-1.png", matched:false},
+  {"src": "/img/sword-1.png", matched:false}
 ]
 
 
@@ -78,7 +78,7 @@ useEffect( () => {
 
   return (
     <div className='App'>
-      <h1> <span>Family Guy</span> Memory Game</h1>
+      <h1> Memory Game</h1>
       <div className='section'>
         <button onClick={shuffleCards}>New Game</button>
         <h2>Turns: {turns}</h2>
